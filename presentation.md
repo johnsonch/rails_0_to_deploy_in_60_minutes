@@ -36,6 +36,12 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 
 ---
 #Definitions
+* Nitrous
+* Heroku
+* Ruby
+* Rails
+* Git
+* Bundler
 
 ---
 #Setting up an Development Environment
@@ -58,10 +64,24 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 
 ^ Presenter notes:
 * Nitrous overview
-* Generate new rails project `$ rails new XXXX` 
+* Setup git config
+
+  ```
+    $ git config --global user.name 'Chris Johnson' 
+    $ git config --global user.email 'chris@johnsonch.com' 
+  ```
+* Install new rails gem ```$ gem install rails```
+* Generate new rails project ```$ rails new crux``` 
 * Explore project structure
-  * MVC, Configuration, Asset Pipeline
-* Static pages controller `$ bundle exec rails generate controller static_pages index`
+  * MVC, Configuration, Gemfile, Asset Pipeline
+* Git
+	
+	```
+	$ git init .
+	```
+	* explore the ```.gitignore``` file
+	
+* Static pages controller ```$ bundle exec rails generate controller static_pages index````
 * Add route
 * Add some styling
 * Mini test? 
@@ -69,6 +89,8 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 ---
 #Deploying
 #Heroku
+
+$ heroku create
 
 ---
 #Profit!
