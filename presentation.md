@@ -3,6 +3,9 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 #Ruby on Rails
 ##0 to Deployed in 60 Minutes
 ###Chris Johnson
+![full](images/IMG_5283.jpg)
+
+^ Photo Credit: Me 
 
 ---
 #About me
@@ -18,25 +21,41 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 ---
 #About GettyImages
 
-
->GettyImages is among the world’s leading creators and distributors of award-winning still imagery, video, music and multimedia products, as well as other forms of premium digital content, available through its trusted house of brands, including iStock© and Thinkstock©.
+> GettyImages is among the world’s leading creators and distributors of award-winning still imagery, video, music and multimedia products, as well as other forms of premium digital content, available through its trusted house of brands, including iStock© and Thinkstock©.
 
 ![inline](http://cyberpunklibrarian.com/wp-content/uploads/2014/03/getty_images_logo.jpg)
 
 ---
-#We're hiring
+#Shameless Plug
+![full](images/wbdev2_xlargebeta.jpg)
+
+---
+![fit right](images/wbdev2_xlargebeta.jpg)
+
+* http://bit.ly/web-development-recipes-2nd-edition
+* @webdevrecipes
+* http://webdevelopmentrecipes.com
 
 ---
 #Roadmap
+![full](images/IMG_6005.jpg)
+
+^ Photo Credit: Me 
+
 * Definitions
 * Setting up a Development Environment
-* Building XXXX
+* Building "Crux"
 * Deploying
+* ???
 * Profit!
 
 ---
+#Disclaimer
+##This is not a talk on how to build "enterprisy" applications
+
+---
 #Definitions
-* Nitrous
+* Cloud IDE
 * Heroku
 * Ruby
 * Rails
@@ -45,55 +64,73 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 
 ---
 #Setting up an Development Environment
+* Setup local machine?
+* Create a VM
+* Use <insert hot new provisioning> technology
+* Cloud IDE
+ * [https://c9.io/](https://c9.io/)
+
+---
+#Which one is for me?
+
+![full](images/182656049.jpg)
+
+^ Photo Credit: Dave and Les Jacobs | Blend Images | 182656049
 
 ---
 #Let's build
-##XXXX
+##Crux
+
+![full](images/532029343.jpg)
+
+^ Photo Credit: Mike Kemp | Blend Images | 532029343
 
 ---
-#Let's build
-##Wireframe
+#Let's build - Wireframe
+
+![inline fit](https://dl.dropboxusercontent.com/s/i2tmld3lp0keo31/2015-04-24%20at%208.31%20PM.png)
 
 ---
-#Let's build
-##Model/Database plan
+#Let's build - Model/Database plan
+![inline fit](https://dl.dropboxusercontent.com/s/ls8zmsd4zqsap5x/2015-04-24%20at%208.34%20PM.png)
+
+
 
 ---
 #Let's build
 ##To the editor
 
-^ Presenter notes:
-* Nitrous overview
-* Setup git config
+![full](images/170961794.jpg)
 
-  ```
-    $ git config --global user.name 'Chris Johnson' 
-    $ git config --global user.email 'chris@johnsonch.com' 
-  ```
-* Install new rails gem ```$ gem install rails```
-* Generate new rails project ```$ rails new crux``` 
-* Explore project structure
-  * MVC, Configuration, Gemfile, Asset Pipeline
-* Git
-	
-	```
-	$ git init .
-	```
-	* explore the ```.gitignore``` file
-	
-* Static pages controller ```$ bundle exec rails generate controller static_pages index````
-* Add route
-* Add some styling
-* Mini test? 
+^ Photo Credit: Paul Bradbury | OJO Images | 170961794
 
 ---
 #Deploying
 #Heroku
 
-$ heroku create
+^ Notes 
+```
+  ##Create the app
+  $ heroku create
+  ##Adjust gemfile to use postgres
+  gem 'sqlite3', group: :development
+  gem 'pg', group: :production
+  ##Rebuild gemfile.lock
+  $ bundle install --without production
+  ##Server up our assets //needed for heroku simplicity
+  config.serve_static_assets = true
+```
 
 ---
 #Profit!
 ##Actually do y'all have any questions?
 
 ---
+#Thank you
+![fit right](images/wbdev2_xlargebeta.jpg)
+
+* http://bit.ly/web-development-recipes-2nd-edition
+* @webdevrecipes
+* http://webdevelopmentrecipes.com
+* @johnsonch
+* http://blog.johnsonch.com
