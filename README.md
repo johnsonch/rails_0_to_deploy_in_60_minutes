@@ -1,6 +1,6 @@
 #README
 ##About
-This is a repository of materials for a presentation titled '0 to deployed in 60 minutes with Ruby on Rails'.  This contains presentation notes and also a sample Ruby on Rails application.
+This is a repository of materials for a presentation titled '0 to deployed in 60 minutes with Ruby on Rails'.  This contains presentation and notes.  The sample application can be found at https://github.com/johnsonch/crux. 
 
 ##License
 The MIT License (MIT)
