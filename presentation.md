@@ -1,18 +1,18 @@
-footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes 
+footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 
 #Ruby on Rails
 ##0 to Deployed in 60 Minutes
 ###Chris Johnson
 ![full](images/IMG_5283.jpg)
 
-^ Photo Credit: Me 
+^ Photo Credit: Me
 
 ---
 #About me
 ![fit right](http://www.johnsonch.com/images/me.jpg)
 
 * Chris Johnson
-* Software Engineer and Scrum Master at GettyImages
+* Manager of Application Development at GettyImages
 * Author at Pragmatic Bookshelf
 * Part-Time Instructor at Madison College
 * Owner at JohnsonCH, LLC
@@ -40,7 +40,7 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 #Roadmap
 ![full](images/IMG_6005.jpg)
 
-^ Photo Credit: Me 
+^ Photo Credit: Me
 
 * Definitions
 * Setting up a Development Environment
@@ -108,7 +108,7 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 #Deploying
 #Heroku
 
-^ Notes 
+^ Notes
 ```
   ##Create the app
   $ heroku create

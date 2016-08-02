@@ -2,27 +2,35 @@
 * Cloud 9 overview
 * Setup git config
   ```
-    $ git config --global user.name 'Chris Johnson' 
-    $ git config --global user.email 'chris@johnsonch.com' 
+    $ git config --global user.name 'Chris Johnson'
+    $ git config --global user.email 'chris@johnsonch.com'
   ```
 * Install new rails gem ```$ gem install rails```
-* Cloud 9 generates a rails project for you we're going up upgrade it
+* Cloud 9 generates a rails project for you we're going to remove that
 
 	```
-	gem 'rails', '4.2.1'
+    $ cd ..
+    $ rm -rf workspace
 	```
-* Then ```$ bundle update rails```
+* Then install rails 5
+
+    ```
+    $ gem install rails
+    $ rails new crux
+    ```
+
+* Then run ```$ bundle update rails``` from inside the app folder
 
 * Explore project structure
   * MVC, Configuration, Gemfile, Asset Pipeline
 * Git
-	
+
 	```
 	$ git init .
 	```
 * explore the ```.gitignore``` file
-	
-* Static pages controller 
+
+* Static pages controller
 ```$ bundle exec rails generate controller static_pages index about````
 
 * Add routes
@@ -42,7 +50,7 @@
     *= require_self
     ```
 	* Add design html to our layout, add the following code to application.html.erb
-	
+
     ```
     <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -58,14 +66,14 @@
     </nav>
     <div class="container">
     <%= yield %>
-    </div>      
+    </div>
     <footer>
     <p>&copy; Youscribble</p>
     </footer>
     ```
-    
+
 	* Add some fun to our home page
-	
+
     ```
     <div class="row">
       <div class="jumbotron">
@@ -74,7 +82,7 @@
         <p><a class="btn btn-primary btn-lg">Learn more</a></p>
       </div>
     </div>
-    
+
    	```
 * Let's add our first real feature
 ```
@@ -88,14 +96,14 @@ $ bundle exec rake db:migrate
 
 * Ok so this is fine, but not a real workflow. Let's make the following changes:
 	* When someone goes to /pastes we show them the form to create a paste
-	
+
 	```
 	def index
       @paste = Paste.new
       render :new
   	end
 	```
-	
+
 	* Style our form to be more like the wireframe
 
     ```
@@ -154,24 +162,24 @@ $ bundle exec rake db:migrate
     <%= @paste.code %>
     </pre>
     </p>
-    
+
     ```
-    
+
 	* Generate a slug for the user and show the page at that URL
 		* Controller
-		
+
 			```
 			paste_path(id: @paste.slug)
-			
+
 			Paste.find_by(slug: params[:id])
 			```
-			
+
 		* Model
             ```
             class Paste < ActiveRecord::Base
             before_create :generate_slug
-            
-            
+
+
             private
                 def generate_slug
                 self.slug = SecureRandom.urlsafe_base64
@@ -183,8 +191,8 @@ $ bundle exec rake db:migrate
 
 
 
-	
-* Mini test? 
+
+* Mini test?
 
 ```
   test "generates slug after create" do
