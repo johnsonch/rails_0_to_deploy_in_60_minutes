@@ -113,12 +113,19 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
   ##Create the app
   $ heroku create
   ##Adjust gemfile to use postgres
-  gem 'sqlite3', group: :development
+  gem 'sqlite3', group: :development, :test
   gem 'pg', group: :production
   ##Rebuild gemfile.lock
   $ bundle install --without production
-  ##Server up our assets //needed for heroku simplicity
-  config.serve_static_assets = true
+  ## Commit and push the app
+  $ git add .
+  $ git commit -am "commiting to push to heroku"
+  ## Deploy
+  $ git push heroku master
+  ## Migrate our database
+  $ heroku run rails db:migrate
+  ## Find out where our app is running
+  $ heroku domains
 ```
 
 ---

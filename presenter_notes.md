@@ -33,15 +33,10 @@
 
 * Add some styling
 	* [http://bootswatch.com/simplex/](http://bootswatch.com/simplex/)
-	* Create app/assets/stylesheets/theme.css and add contents from bootswatch template
-	* Add theme to the app/assets/stylesheets/application.css so that heroku will be happy
+	* Create app/assets/stylesheets/simplex.css and add contents from bootswatch template
+	
 
-    ```css
-    *= theme
-    *= require_tree .
-    *= require_self
-    ```
-	* Add design html to our layout, add the following code to application.html.erb
+  * Add design html to our layout, add the following code to application.html.erb
 	
     ```
     <nav class="navbar navbar-default">
@@ -156,30 +151,36 @@ $ bundle exec rake db:migrate
     </p>
     
     ```
+  * Model
+    ```
+      class Paste < ActiveRecord::Base
+      before_create :generate_slug
+      
+      
+      private
+          def generate_slug
+          self.slug = SecureRandom.urlsafe_base64
+          end
+      end
+    ```
     
 	* Generate a slug for the user and show the page at that URL
 		* Controller
 		
 			```
+			# update redirect on create
 			paste_path(id: @paste.slug)
 			
+			# update callback
 			Paste.find_by(slug: params[:id])
 			```
 			
-		* Model
-            ```
-            class Paste < ActiveRecord::Base
-            before_create :generate_slug
-            
-            
-            private
-                def generate_slug
-                self.slug = SecureRandom.urlsafe_base64
-                end
-            end
-            ```
-		* View - remove slug field
+
+	* View - remove slug field
 	* Update layout to have links correct to pastes_path
+	```
+	 <li class="active"><%= link_to "New Paste", pastes_path  %></li>
+  ```
 
 
 
