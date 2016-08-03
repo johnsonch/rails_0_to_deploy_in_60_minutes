@@ -1,11 +1,19 @@
-footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
+<!-- footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes -->
 
 #Ruby on Rails
 ##0 to Deployed in 60 Minutes
 ###Chris Johnson
 ![full](images/IMG_5283.jpg)
 
-^ Photo Credit: Me
+^ [^1]
+
+[^1]: Photo Credit: Me
+
+---
+![full](images/that_conference_title_slide.png)
+
+---
+![full](images/that_conference_sponsors.png)
 
 ---
 #About me
@@ -17,6 +25,13 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 * Part-Time Instructor at Madison College
 * Owner at JohnsonCH, LLC
 * @johnsonch => most places on the internet
+
+---
+#About my family
+![fit right](images/family.jpg)
+
+* Husband
+* Father of 2
 
 ---
 #About GettyImages
@@ -40,7 +55,9 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 #Roadmap
 ![full](images/IMG_6005.jpg)
 
-^ Photo Credit: Me
+^ [^2]
+
+[^2]:Photo Credit: Me
 
 * Definitions
 * Setting up a Development Environment
@@ -53,6 +70,12 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 #Disclaimer
 ##This is not a talk on how to build "enterprisy" applications
 
+![full](images/GettyImages-546183276.jpg)
+
+^ [^3]
+
+[^3]: Photo Credit: filmfoto | 546183276
+
 ---
 #Definitions
 * Cloud IDE
@@ -63,10 +86,49 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 * Bundler
 
 ---
+# Cloud IDE
+
+to do
+
+---
+# Heroku
+
+to do
+
+---
+# Ruby
+
+to do
+
+---
+# Rails
+
+to do
+
+---
+# Git
+
+to do
+
+---
+# Bundler
+
+to do
+
+---
 #Setting up an Development Environment
 * Setup local machine?
+
+---
+#Setting up an Development Environment
 * Create a VM
+
+---
+#Setting up an Development Environment
 * Use <insert hot new provisioning> technology
+
+---
+#Setting up an Development Environment
 * Cloud IDE
  * [https://c9.io/](https://c9.io/)
 
@@ -75,7 +137,12 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 
 ![full](images/182656049.jpg)
 
-^ Photo Credit: Dave and Les Jacobs | Blend Images | 182656049
+^ [^4]
+
+[^4]: Photo Credit: Dave and Les Jacobs | Blend Images | 182656049
+
+^ Notes: Really it all depends on your comfort with the different technologies
+and how much time you want to spend getting things going.
 
 ---
 #Let's build
@@ -83,7 +150,9 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 
 ![full](images/532029343.jpg)
 
-^ Photo Credit: Mike Kemp | Blend Images | 532029343
+^ [^5]
+
+[^5]: Photo Credit: Mike Kemp | Blend Images | 532029343
 
 ---
 #Let's build - Wireframe
@@ -102,7 +171,9 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 
 ![full](images/170961794.jpg)
 
-^ Photo Credit: Paul Bradbury | OJO Images | 170961794
+^ [^6]
+
+[^6]: Photo Credit: Paul Bradbury | OJO Images | 170961794
 
 ---
 #Deploying
@@ -141,3 +212,6 @@ footer: @johnsonch :: Chris Johnson :: Ruby on Rails 0 to Deployed in 60 Minutes
 * http://webdevelopmentrecipes.com
 * @johnsonch
 * http://blog.johnsonch.com
+
+---
+![full](images/that_conference_end_slide.png)
