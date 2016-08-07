@@ -5,10 +5,6 @@
 ###Chris Johnson
 ![full](images/IMG_5283.jpg)
 
-^ [^1]
-
-[^1]: Photo Credit: Me
-
 ---
 ![full](images/that_conference_title_slide.png)
 
@@ -55,10 +51,6 @@
 #Roadmap
 ![full](images/IMG_6005.jpg)
 
-^ [^2]
-
-[^2]:Photo Credit: Me
-
 * Definitions
 * Setting up a Development Environment
 * Building "Crux"
@@ -67,20 +59,29 @@
 * Profit!
 
 ---
-#Disclaimer
 ##This is not a talk on how to build "enterprisy" applications
 
 ![full](images/GettyImages-546183276.jpg)
 
-^ [^3]
+^ [^1]
 
-[^3]: Photo Credit: filmfoto | 546183276
+[^1]: filmfoto | 546183276
+
+---
+##This is a talk on how to get started and perform one itteration of a simple web application
+
+![full](images/GettyImages-154769124.jpg)
+
+^ [^2]
+
+[^2]: Image Source | 154769124
 
 ---
 #Definitions
 * Cloud IDE
 * Heroku
 * Ruby
+* Ruby Gems
 * Rails
 * Git
 * Bundler
@@ -88,58 +89,95 @@
 ---
 # Cloud IDE
 
-to do
+![full](images/GettyImages-532029221.jpg)
+
+A tool for developing an application with nothing but a web browser.
+
+
+^ [^3]
+
+[^3]: Colin Anderson | 532029221
 
 ---
 # Heroku
 
-to do
+* Heroku is a PaaS company owned by Salesforce.com
+* We'll be using this to deploy our application.
+* They have a free tier!
+
+![fit right](https://dl.dropboxusercontent.com/s/podds8x14tzqqcf/2016-08-05%20at%208.22%20PM.png)
 
 ---
 # Ruby
 
-to do
+##is
+
+> A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
+
+![fit right](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/200px-Ruby_logo.svg.png)
+
+---
+#Ruby Gems
+
+Simply a package manager for the Ruby language.
 
 ---
 # Rails
 
-to do
+> Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+
+![fit right](https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/300px-Ruby_on_Rails.svg.png)
 
 ---
 # Git
 
-to do
+* I'm hoping you have all heard of Git if not find @coridrew or @dahlbyk!
+* They each have a Git session on Wednesday.
 
 ---
 # Bundler
 
-to do
+* > Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.
+
+
+* > Bundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production. Starting work on a project is as simple as bundle install.
+
+^ For the most part it is a nice tool, like any tool without proper use it can
+cause much pain and suffering.
 
 ---
 #Setting up an Development Environment
 * Setup local machine?
 
+^ You are going to need: Ruby, Ruby Gems, Rails, Bundler, Git all on your local machine
+
 ---
 #Setting up an Development Environment
-* Create a VM
+* Create a VM?
+
+^ A little more isolated but still the setup process is going to take some work
 
 ---
 #Setting up an Development Environment
 * Use <insert hot new provisioning> technology
+
+^ Again isolated but a poo storm
 
 ---
 #Setting up an Development Environment
 * Cloud IDE
  * [https://c9.io/](https://c9.io/)
 
+^ This requires not much effort
+
 ---
 #Which one is for me?
 
 ![full](images/182656049.jpg)
 
-^ [^4]
+^ [^5]
 
-[^4]: Photo Credit: Dave and Les Jacobs | Blend Images | 182656049
+[^5]: Dave and Les Jacobs | Blend Images | 182656049
 
 ^ Notes: Really it all depends on your comfort with the different technologies
 and how much time you want to spend getting things going.
@@ -150,9 +188,9 @@ and how much time you want to spend getting things going.
 
 ![full](images/532029343.jpg)
 
-^ [^5]
+^ [^6]
 
-[^5]: Photo Credit: Mike Kemp | Blend Images | 532029343
+[^6]: Mike Kemp | Blend Images | 532029343
 
 ---
 #Let's build - Wireframe
@@ -171,13 +209,20 @@ and how much time you want to spend getting things going.
 
 ![full](images/170961794.jpg)
 
-^ [^6]
+^ [^7]
 
-[^6]: Photo Credit: Paul Bradbury | OJO Images | 170961794
+[^7]: Paul Bradbury | OJO Images | 170961794
 
 ---
-#Deploying
+#Deploying to
 #Heroku
+
+![full](images/GettyImages-181817359.jpg)
+
+^ [^8]
+
+[^8]: Andy Ryan | 181817359
+
 
 ^ Notes
 ```
