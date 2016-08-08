@@ -8,8 +8,12 @@
 ---
 ![full](images/that_conference_title_slide.png)
 
+^ That conference title slide
+
 ---
 ![full](images/that_conference_sponsors.png)
+
+^ That conference sponsors slide
 
 ---
 #About me
@@ -26,6 +30,8 @@
 #About my family
 ![fit right](images/family.jpg)
 
+^ A picture of my famlily
+
 * Husband
 * Father of 2
 
@@ -40,6 +46,8 @@
 #Shameless Plug
 ![full](images/wbdev2_xlargebeta.jpg)
 
+^ Cover of Web Development Recipes, second edition
+
 ---
 ![fit right](images/wbdev2_xlargebeta.jpg)
 
@@ -50,6 +58,8 @@
 ---
 #Roadmap
 ![full](images/IMG_6005.jpg)
+
+^ Race cars on the track at Road America
 
 * Definitions
 * Setting up a Development Environment
@@ -260,3 +270,5 @@ and how much time you want to spend getting things going.
 
 ---
 ![full](images/that_conference_end_slide.png)
+
+^ That Conference end slide.
